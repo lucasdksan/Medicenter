@@ -151,6 +151,23 @@ nav a:hover{
     display: flex;
     flex: 1;
 }
+.block_area{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.block{
+    width: 120px;
+    height: 120px;
+    background-color: var(--baby-blue);
+    margin: 10px;
+}
+.widget_text{
+    color: var(--title-color);
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
 .widget_description{
     color: var(--title-color);
     line-height: 20px;
@@ -210,7 +227,35 @@ nav a:hover{
     flex-wrap: wrap;
 }
 .latest_content{
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    color: var(--main-white);
+    font-size: 16px;
+    margin-right: 5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.text_content{
+    font-size: 16px;
+    color: var(--main-white);
+    line-height: 20px;
+}
+.time_content{
+    font-size: 18px;
+    color: var(--dark-baby);
 }
 article{
     flex: 1;
@@ -252,6 +297,7 @@ article .news_resume{
     font-size: 14px;
     margin-bottom: 30px;
 }
+
 footer{
     background-color: var(--footer-black);
     display: flex;
